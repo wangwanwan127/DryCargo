@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="green" format="color|reference" />
+    <attr name="blue" format="color|reference" />
+    <attr name="yellow" format="color|reference" />
+    <attr name="pink" format="color|reference" />
+    <attr name="zi" format="color|reference" />
+    <attr name="red" format="dimension|reference" />
+
+</resources>

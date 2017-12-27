@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.bwei.www.drycargo.activity.MainActivity">
+
+    <include
+        android:id="@+id/layout_titlebar"
+        layout="@layout/layout_titlebar"
+        android:layout_width="match_parent"
+        android:layout_height="60dp" />
+
+    <com.hjm.bottomtabbar.BottomTabBar
+        android:layout_marginTop="60dp"
+        android:id="@+id/bottomTabBar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></com.hjm.bottomtabbar.BottomTabBar>
+
+    <include
+        android:id="@+id/drawer_layout"
+        layout="@layout/drawer_layout"
+        android:layout_width="250dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:choiceMode="singleChoice" />
+
+
+</android.support.v4.widget.DrawerLayout>
